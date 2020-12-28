@@ -1,0 +1,11 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>LinePay 流程 - Step1 : 商品結帳</h2>
+
+<hr />
+<form action="@Url.Action("RequestLinePay")" method="post">
+    <input type="submit" name="name" value="結帳去" />
+</form>
